@@ -1,7 +1,7 @@
 const FooterC = () => {
   return (
     <>
-    <footer className="py-1 bg-warning border border-dark fixed-bottom px-0 px-md-4">
+    <footer id="footer-css" className="py-1 bg-warning border border-dark fixed-bottom px-0 px-md-4">
       <div className="d-flex justify-content-between">
       <a href="error">
       <img className="img-fluid"
@@ -26,10 +26,10 @@ const FooterC = () => {
       href="error"
       />
       </a>
-      <a className="mt-3" href="https://maps.app.goo.gl/XzJbGvNxrxxAyWSQ8">
+      <a className="mt-4" href="https://maps.app.goo.gl/XzJbGvNxrxxAyWSQ8">
       <p>¡Esperándote en Gral. José María Paz 576!</p>
       </a>
-      <p className="mt-3">Llámanos al +381 775-2446</p>
+      <p className="mt-4">Llámanos al +381 775-2446</p>
       </div>
     </footer>
     </>

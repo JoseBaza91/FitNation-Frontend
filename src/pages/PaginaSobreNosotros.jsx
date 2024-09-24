@@ -2,12 +2,12 @@ import { Col, Container, Row } from "react-bootstrap";
 const PaginaSobreNosotros = () => {
   return (
     <>
-      <Container>
+      <Container id="container-sn">
         <Col>
           <Row>
             <h1 className="mt-5 pt-55 text-center">FITNATION</h1>
             <div className="text-center mt-5">VA LOGO</div>
-            <h4 className="m-5">
+            <h4 className="fs-6">
               FITNATION te invitan a que disfrutes esta propuesta de
               entrenamiento en la cual buscamos, no sólo el mejor entrenamiento
               en el mejor lugar si no también que puedas disfrutar tu estadía en
