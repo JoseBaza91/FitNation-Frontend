@@ -1,10 +1,10 @@
 import CardC from "../components/CardC";
-import CarruselC from "../components/CarruselC";
+import CarouselC from "../components/CarouselC";
 
 const PaginaPrincipal = () => {
   return (
     <>
-      <CarruselC />
+      <CarouselC />
       <div className="container">
         <div className="row">
           <CardC />
