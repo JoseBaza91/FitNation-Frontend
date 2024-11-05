@@ -1,5 +1,7 @@
+import FormsC from "../components/FormsC"
+
 const PaginaDetalleDePlanes = () => {
-  return <div>PaginaDetalleDePlanes</div>;
+  return <FormsC/>;
 };
 
 export default PaginaDetalleDePlanes;
