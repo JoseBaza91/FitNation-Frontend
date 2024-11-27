@@ -1,5 +1,11 @@
+import TableC from "../components/TableC";
+
 const PaginaAdminUsuarios = () => {
-  return <div>PaginaAdminUsuarios</div>;
+  return (
+    <>
+    <TableC/>
+    </>
+  );
 };
 
 export default PaginaAdminUsuarios;

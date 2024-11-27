@@ -1,5 +1,11 @@
+import TableC from "../components/TableC";
+
 const PaginaAdminClases = () => {
-  return <div>PaginaAdminClases</div>;
+  return (
+    <>
+    <TableC/>
+    </>
+  );
 };
 
 export default PaginaAdminClases;
